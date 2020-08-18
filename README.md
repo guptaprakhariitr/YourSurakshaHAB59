@@ -1,10 +1,10 @@
-The website of the COVCare project made using Django and Bootstrap.
+The website of the yourSURAKSHA project made using Django and Bootstrap.
 
-# COVCare: A COVID Quarantine and Isolation Home Healthcare Service
+## yourSURAKSHA : A COVID Quarantine and Isolation Home Healthcare Service
 
 # Project Introduction
 
-COVCare is a service to enable distant monitoring and constant evaluation of a large number of patients in the comfort of their homes and thus, home isolation and quarantine on a large scale can become a reality. This service comprises a website interface to be used by medical practitioners for continuous evaluation and a mobile application interface for the user to remain connected to the doctors.
+yourSURAKSHA is a service to enable distant monitoring and constant evaluation of a large number of patients in the comfort of their homes and thus, home isolation and quarantine on a large scale can become a reality. This service comprises a website interface to be used by medical practitioners for continuous evaluation and a mobile application interface for the user to remain connected to the doctors.
 
 # The Problem being addressed:
 As the number of patients of COVID-19 continues to increase at an unpredictable rate, the number of beds in hospitals and centers set up by the government fall short of the requirement by a huge margin. The condition is so severe that the reports indicating the incidents of patients being kept on streets have surfaced recently. All patients are not required to be kept in specialized care units. Home quarantine and isolation with proper guidelines can be implemented in these less severe cases. This project is created to bridge the gap between the medical service provider and the patient.
@@ -28,19 +28,7 @@ Ability to follow home quarantine/isolation guidelines
 Medical Background:
 COVID-19: Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes. At this time (time of submission), there are no specific vaccines or treatments for COVID-19.
 There are three categories of patients: L1, L2, and L3 with increasing order of severity.
-The service makes use of the Modified Early Warning Score (MEWS) in order to evaluate the condition of the patient. It is a guide used by medical services to quickly determine the degree of illness of a patient. It is based on the vital signs. It is a scale from 0 to 14 based on 5 parameters. The parameters, as well as their corresponding values and MEWS score, is given:
-top.png
-caption (optional)
-bp.png
-caption (optional)
-heartbeat.png
-caption (optional)
-rr.png
-caption (optional)
-avpu.png
-caption (optional)
-temperature.png
-caption (optional)
+The service makes use of the Modified Early Warning Score (MEWS) in order to evaluate the condition of the patient. It is a guide used by medical services to quickly determine the degree of illness of a patient. It is based on the vital signs. It is a scale from 0 to 14 based on 5 parameters. 
 Along with these parameters, this service has the provision of displaying SpO2 of a patient as well for additional information. SpO2, also known as oxygen saturation, is a measure of the amount of oxygen-carrying haemoglobin in the blood relative to the amount of haemoglobin not carrying oxygen. The normal value is between 94 to 100 %.
 The patient will need to feed in these values on a regular basis.
 A MEWS value below than 2 can be kept in home isolation.
@@ -54,7 +42,8 @@ The patients can install the android app and create an account. There is a choic
 Moreover, each parameter has a set of information about it for instance, What is blood pressure?, How do we measure it? and other guidelines to use the instrument along with links to online tutorials to do so.
 Hospital service side:
 Hospitals can register on the website by filling the sign-up form and can approve the registration of patients.
-The dashboard of every hospital displays a list of patients by sorting them on the basis of their MEWS, displaying the more severe patients above and then the less severe once. The doctors can click on the specific patient account to see more details regarding his medical condition. Seeing the MEWS score and SPO2 values the doctors can decide which patients to immediately shift to the hospital.Here's a short video of the working of the android app made by us:Click here
+The dashboard of every hospital displays a list of patients by sorting them on the basis of their MEWS, displaying the more severe patients above and then the less severe once. The doctors can click on the specific patient account to see more details regarding his medical condition. Seeing the MEWS score and SPO2 values the doctors can decide which patients to immediately shift to the hospital.Here's a short video of the working of the android app made by us: <a href="https://youtu.be/DW4zY1Maz8o">Youtube Video</a>
+
 # Tech stack used:
 Java: the android app has been written in the Java language with the help of Android Studio.
 Django: the website is written using the Django as the backend framework.Bootstrap: the frontend of the website is written using bootstrap.
