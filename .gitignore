@@ -7,3 +7,5 @@ venv/*
 .vscode
 __pycache__
 db.sqlite3
+pyrebase_settings.py
+covidmonitor.json
